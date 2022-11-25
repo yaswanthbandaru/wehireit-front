@@ -18,6 +18,9 @@ return (
 		<NavLink to='/about' activeStyle>
 			About
 		</NavLink>
+		<NavLink to='/contest' activeStyle>
+			contest
+		</NavLink>
 		<NavLink to='/events' activeStyle>
 			Events
 		</NavLink>

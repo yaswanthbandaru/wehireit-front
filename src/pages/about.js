@@ -5,12 +5,14 @@ return (
 	<div
 	style={{
 		display: 'flex',
-		justifyContent: 'Right',
-		alignItems: 'Right',
-		height: '100vh'
+		justifyContent: 'Center',
+		alignItems: 'Left',
+		height: '100vh',
+		width: 1240 ,
+		margin: 0,
 	}}
 	>
-	<h1>GeeksforGeeks is a Computer Science portal for geeks.</h1>
+	<h1 style={{margin: 0}}>GeeksforGeeks is a Computer Science portal for geeks.</h1>
 	</div>
 );
 };
