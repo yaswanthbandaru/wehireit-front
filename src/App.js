@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages';
 import About from './pages/about';
-import Contests from './pages/contests';
+// import Contests from './pages/contests';
 import QuizListPage from './pages/QuizListPage';
 import AnnualReport from './pages/annual';
 import Teams from './pages/team';
@@ -28,6 +28,7 @@ return (
 			<Route path='/blogs' element={<Blogs />} />
 			<Route path='/sign-up' element={<SignInSignUpPage />} />
 			<Route path='/' element={<Home />} />
+			<Route path='/quiz/:id' element={<Blogs />} />
 		</Routes>
 	</Router>
 );

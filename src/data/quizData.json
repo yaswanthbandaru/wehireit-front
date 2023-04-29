@@ -1,0 +1,51 @@
+{
+    "quizName": "My Quiz",
+    "questions": [
+      {
+        "question": "What is the capital of France?",
+        "options": [
+          {"id": 1, "text": "Paris", "isCorrect": true},
+          {"id": 2, "text": "London", "isCorrect": false},
+          {"id": 3, "text": "Berlin", "isCorrect": false},
+          {"id": 4, "text": "Madrid", "isCorrect": false}
+        ]
+      },
+      {
+        "question": "What is the highest mountain in the world?",
+        "options": [
+          {"id": 1, "text": "Mount Kilimanjaro", "isCorrect": false},
+          {"id": 2, "text": "Mount Everest", "isCorrect": true},
+          {"id": 3, "text": "Mount Fuji", "isCorrect": false},
+          {"id": 4, "text": "Mount Olympus", "isCorrect": false}
+        ]
+      },
+      {
+        "question": "What is the currency of Japan?",
+        "options": [
+          {"id": 1, "text": "Dollar", "isCorrect": false},
+          {"id": 2, "text": "Yen", "isCorrect": true},
+          {"id": 3, "text": "Euro", "isCorrect": false},
+          {"id": 4, "text": "Pound", "isCorrect": false}
+        ]
+      },
+      {
+        "question": "What is the largest country in the world?",
+        "options": [
+          {"id": 1, "text": "Canada", "isCorrect": false},
+          {"id": 2, "text": "Russia", "isCorrect": true},
+          {"id": 3, "text": "China", "isCorrect": false},
+          {"id": 4, "text": "United States", "isCorrect": false}
+        ]
+      },
+      {
+        "question": "What is the chemical symbol for gold?",
+        "options": [
+          {"id": 1, "text": "Go", "isCorrect": false},
+          {"id": 2, "text": "Au", "isCorrect": true},
+          {"id": 3, "text": "Ag", "isCorrect": false},
+          {"id": 4, "text": "Cu", "isCorrect": false}
+        ]
+      }
+    ]
+  }
+  
