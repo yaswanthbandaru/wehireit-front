@@ -10,6 +10,7 @@ import {
   Typography,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   form: {
@@ -108,6 +109,8 @@ function SignInSignUp() {
             className={classes.button}
             variant="contained"
             color="primary"
+            component={Link}
+            to="/"
             onClick={() => {
                 console.log("Submit button clicked")
             }}
