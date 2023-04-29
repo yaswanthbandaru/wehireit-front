@@ -9,7 +9,9 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   appbar: {
-    backgroundColor: "aqua",
+    // backgroundColor: "aqua",
+  },link: {
+    color: "white",
   },
 }));
 

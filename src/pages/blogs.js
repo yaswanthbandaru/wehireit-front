@@ -6,7 +6,11 @@ import { useParams } from 'react-router-dom';
 import quizListData from '../data/quizList.json';
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+    marginTop: theme.spacing(4),
+  },
   question: {
+    marginTop: theme.spacing(4),
     marginBottom: theme.spacing(3),
   },
   options: {
@@ -62,7 +66,7 @@ function Blog({ match }) {
 
   if (quizCompleted) {
     return (
-      <Container maxWidth="sm">
+      <Container maxWidth="sm" className={classes.root}>
         <Typography variant="h5" align="center" className={classes.question}>
           Congratulations! You have completed the quiz.
         </Typography>
