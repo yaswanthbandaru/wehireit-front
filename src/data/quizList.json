@@ -123,22 +123,27 @@
         "questions": [
             {
               "id": 1,
-              "question": "CSS?",
+              "question": "How can we change the text color of an element?",
               "type": "single",
               "options": [
                 {
                   "id": 1,
-                  "answer": "Paris",
-                  "isCorrect": true
-                },
-                {
-                  "id": 2,
-                  "answer": "London",
+                  "answer": "background-color",
                   "isCorrect": false
                 },
                 {
+                  "id": 2,
+                  "answer": "color",
+                  "isCorrect": true
+                },
+                {
                   "id": 3,
-                  "answer": "Madrid",
+                  "answer": "Both A and B",
+                  "isCorrect": false
+                },
+                {
+                  "id": 4,
+                  "answer": "None of the above",
                   "isCorrect": false
                 }
               ]
