@@ -1,22 +1,3 @@
-// import React from 'react';
-
-// const Home = () => {
-// return (
-// 	<div
-// 	style={{
-// 		display: 'flex',
-// 		justifyContent: 'center',
-// 		alignItems: 'center',
-// 		height: '100vh'
-// 	}}
-// 	>
-// 	<h1>Welcome to GeeksforGeeks</h1>
-// 	</div>
-// );
-// };
-
-// export default Home;
-
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Button } from '@material-ui/core';
@@ -47,13 +28,13 @@ function LandingPage() {
       <Typography variant="h2" className={classes.text}>
         WeHireIt
       </Typography>
-      <Button 
-	  	variant="contained" 
-		color="primary" 
-		className={classes.button}
-		component={Link}
-		to="/technology"
-		>
+      <Button
+        variant="contained"
+        color="primary"
+        className={classes.button}
+        component={Link}
+        to="/technology"
+      >
         Get Started
       </Button>
     </div>

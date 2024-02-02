@@ -26,24 +26,12 @@ const theme = createTheme();
 
 
 const Technology = () => {
-// return (
-// 	<div
-// 	style={{
-// 		display: 'flex',
-// 		justifyContent: 'center',
-// 		alignItems: 'Center',
-// 		height: '100vh'
-// 	}}
-// 	>
-// 	<h1>Welcome to Technologies</h1>
-// 	</div>
-// ); 
 
-return (
-	<ThemeProvider theme={theme}>
-		<CssBaseline />
-		<main>
-		<Container sx={{ py: 8 }} maxWidth="md">
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <main>
+        <Container sx={{ py: 8 }} maxWidth="md">
           {/* End hero unit */}
           <Grid container spacing={4}>
             {cards.map((card) => (
@@ -57,19 +45,19 @@ return (
                       // 16:9
                       pt: '56.25%',
                     }}
-					image={card.image}
+                    image={card.image}
                     // image="https://source.unsplash.com/random"
                     alt="random"
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
                       {/* Heading 1 */}
-					  {card.heading}
+                      {card.heading}
                     </Typography>
                     <Typography>
                       {/* This is a media card. You can use this section to describe the
                       content. */}
-					  {card['sub-details']}
+                      {card['sub-details']}
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -81,9 +69,9 @@ return (
             ))}
           </Grid>
         </Container>
-		</main>
-	</ThemeProvider>
-);
+      </main>
+    </ThemeProvider>
+  );
 };
 
 export default Technology;
